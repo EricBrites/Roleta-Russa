@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roleta Russa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div class="jogador">
+            <img id="jogador1-img" src="img/jogador1.png" alt="Jogador 1">
+            <div id="jogador1-chances"></div>
+            <button id="jogador1" onclick="puxarGatilho(1)">Puxar Gatilho Jogador 1</button>
+        </div>
+        <div class="jogador">
+            <img id="jogador2-img" src="img/jogador2.png" alt="Jogador 2">
+            <div id="jogador2-chances"></div>
+            <button id="jogador2" onclick="puxarGatilho(2)">Puxar Gatilho Jogador 2</button>
+        </div>
+        <div class="jogador">
+            <img id="jogador3-img" src="img/jogador3.png" alt="Jogador 3">
+            <div id="jogador3-chances"></div>
+            <button id="jogador3" onclick="puxarGatilho(3)">Puxar Gatilho Jogador 3</button>
+        </div>
+        <div class="jogador">
+            <img id="jogador4-img" src="img/jogador4.png" alt="Jogador 4">
+            <div id="jogador4-chances"></div>
+            <button id="jogador4" onclick="puxarGatilho(4)">Puxar Gatilho Jogador 4</button>
+        </div>
+    </div>
+    <div id="resultado"></div>
+    <button onclick="resetar()">Resetar Jogo</button>
+
+    <audio id="somVitoria" src="audio/som_vitoria.mp3"></audio>
+    <audio id="somPerda" src="audio/som_perda.mp3"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
