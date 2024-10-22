@@ -1,0 +1,31 @@
+body {
+    background-color: #ADD8E6; /* Azul claro */
+    font-family: Arial, sans-serif;
+    text-align: center; /* Centraliza o texto */
+}
+
+#container {
+    display: flex;
+    justify-content: center; /* Centraliza os jogadores horizontalmente */
+    align-items: center; /* Centraliza os jogadores verticalmente */
+    flex-wrap: wrap; /* Permite que os jogadores sejam dispostos em várias linhas, se necessário */
+}
+
+.jogador {
+    margin: 30px; /* Espaço entre os jogadores */
+}
+
+img {
+    width: 100px; /* Tamanho padrão das imagens dos jogadores */
+    height: 100px; /* Mantém a proporção das imagens */
+}
+
+#resultado {
+    margin-top: 20px; /* Espaço acima do resultado */
+}
+
+button {
+    margin-top: 10px; /* Espaço acima dos botões */
+    padding: 10px 20px; /* Tamanho do botão */
+    font-size: 16px; /* Tamanho da fonte do botão */
+}
